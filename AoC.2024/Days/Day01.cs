@@ -1,6 +1,6 @@
-﻿using AoC._2024.Days.Base;
+﻿using AoC2024.Days.Base;
 
-namespace AoC._2024.Days
+namespace AoC2024.Days
 {
     public class Day01 : AoCDay
     {

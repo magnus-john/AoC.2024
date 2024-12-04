@@ -1,4 +1,4 @@
-﻿namespace AoC._2024.Days.Base
+﻿namespace AoC2024.Days.Base
 {
     public abstract class AoCDay
     {
