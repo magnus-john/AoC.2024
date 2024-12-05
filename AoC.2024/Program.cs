@@ -1,3 +1,3 @@
 ﻿using AoC2024.Days;
 
-Console.WriteLine(new Day04().Part2());
+Console.WriteLine(new Day05().Part2());
