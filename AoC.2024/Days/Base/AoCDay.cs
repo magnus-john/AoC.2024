@@ -7,14 +7,14 @@
         public abstract long Part1();
         public abstract long Part2();
 
-        protected List<int> GetIntegers()
+        protected List<long> GetNumbers()
         {
-            return [.. File.ReadAllLines($"{Environment.CurrentDirectory}/Inputs/{Day}.txt").Select(int.Parse)];
+            return [.. File.ReadAllLines($"{Environment.CurrentDirectory}/Inputs/{Day}.txt").Select(long.Parse)];
         }
 
-        protected List<int> GetIntegersOnFirstLine()
+        protected List<long> GetNumbersOnFirstLine(string separator)
         {
-            return [.. GetStrings().First().Split(",").Select(int.Parse)];
+            return [.. GetStrings().First().Split(separator).Select(long.Parse)];
         }
 
         protected List<string> GetStrings()
